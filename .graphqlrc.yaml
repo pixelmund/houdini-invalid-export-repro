@@ -1,0 +1,8 @@
+projects:
+  default:
+    schema:
+      - ./schema.graphql
+      - ./$houdini/graphql/schema.graphql
+    documents:
+      - 'src/**/*.{gql,graphql,js,ts,jsx,tsx,svelte}'
+      - ./$houdini/graphql/documents.gql
